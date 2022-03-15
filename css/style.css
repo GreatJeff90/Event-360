@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Public Sans', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(45deg, #0000008f, #000000c7), url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section ul li {
+    font-size: 20px;
+}
+
+.about-section p,
+.variety-section p,
+.cuisine-section p
+.extra-section p,
+.testimonial-section p
+ {
+    font-size: 16px; 
+    color: #012762;
+}
+
+.variety-text-box {
+    background: white;
+}
+
+.testimonial-section h2 {
+    color: #012762;
+}
+
+.testimony {
+    border: 2px solid #012762;
+}
+
+.auction-section h2 {
+    color: #012762;
+}
+
+.text {
+    font-size: 30px; 
+    color: #012762;
+}
+
+.art {
+    background: #FFF;
+}
+
+  

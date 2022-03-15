@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Public Sans', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(107.93deg, #1C3473 52.61%, #2750A8 63.13%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.auction-section h2 {
+    color: #012762;
+}
+
+.text {
+    font-size: 30px; 
+    color: #012762;
+}
+
+.art {
+    background: #FFF;
+}
+
+.reg-btn {
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 700;
+}
