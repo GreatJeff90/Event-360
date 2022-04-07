@@ -4,9 +4,536 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Event 360 / Home</title>
 </head>
 <body>
+    <!--Navigation-->
+    <div class="nav-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" alt="..." class="img-fluid w-75">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#">Create an Event</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="auction.html">Auction House</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Signup</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+   
+    <!--Page header-->
+    <section class="hero-section py-5 vh-100 text-white fw-bold">
+        <div class="container p-5 my-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1 class="fw-bold">Plan with a <br> Click</h1>
+                    <h5>Your journey starts <br> here</h5>
+                    <ul class="list-unstyled mt-4 mb-5">
+                        <li class="mb-3">
+                            <div class="d-flex align-items-center ">
+                                <span class="me-2"><img src="img/green-tick.png" alt="..." class="img-fluid" width="40px">
+                                </span>Honest pricing
+                            </div> 
+                        </li>
+                        <li class="mb-3">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><img src="img/green-tick.png" alt="..." class="img-fluid" width="40px">
+                                </span>Unique spaces
+                            </div> 
+                        </li>
+                        <li class="mb-3">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><img src="img/green-tick.png" alt="..." class="img-fluid" width="40px">
+                                </span>Smart bookings
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary">Plan events</button>
+                </div>
+                <div class="col-lg-8"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h3 class="mb-3 fw-bold">Book a unique space for your event</h3>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 mb-5 d-flex justify-content-center flex-column">
+                            <img src="img/wedding.png" alt="..." class="img-fluid">
+                            <div class="text-box bg-light">
+                                <p class="mb-0 p-3">Unforgettable weddings with the right space.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mb-5 d-flex justify-content-center flex-column">
+                            <img src="img/birthday.png" alt="..." class="img-fluid">
+                            <div class="text-box bg-light">
+                                <p class="mb-0 p-3">Unforgettable Birthdays with the right space.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="col-lg-6 my-2 mb-3 d-flex justify-content-center flex-column">
+                                <img src="img/funeral.png" alt="..." class="img-fluid">
+                                <div class="text-box bg-light">
+                                    <p class="mb-0 p-3">Bury the dead with space for a funeral.</p>
+                                </div>
+                        </div>
+                        <div class="col-lg-6 my-2 d-flex justify-content-center flex-column">
+                                <img src="img/exhibition.png" alt="..." class="img-fluid">
+                                <div class="text-box bg-light">
+                                    <p class="mb-0 p-3">Show of your Exhibition with the right space.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/sports.png" alt="..." class="img-fluid">
+                    <div class="text-box bg-light">
+                     <p class="mb-0 p-3">Play sports the right way it the right space.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about-section py-5">
+        <div class="container px-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/about.png" alt="..." class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center p-3 fw-bold">
+                        <h2 class="text-center fw-bold mb-2">About Us</h2>
+                        <p class="my-5">
+                            Event360.ng is a web app that allows users to book or plan any event by contacting vendors available on the web app. The web app contains vendors from all spheres, from entertainment, to cuisines, to event centres e.t.c.
+                        </p>
+                        <p class="mb-3">
+                            It also serves as an auction site, where users can auction off their works. It is open to a variety of individuals from Painters, to fashion designers, to graphic artists, sculptors e.t.c.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Variety section-->
+    <section class="variety-section bg-light py-5">
+        <div class="container py-5">
+            <h2 class="fw-bold">
+                Choose from a variety of artists.
+            </h2>
+
+            <div class="row py-5">
+                <div class="col-lg-4 d-flex justify-content-center flex-column">
+                    <img src="img/variety1.png" alt="..." class="img-fluid">
+                    <div class="variety-text-box d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Nathaniel Tetteh.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center flex-column my-5">
+                    <img src="img/variety2.png" alt="..." class="img-fluid">
+                    <div class="variety-text-box d-flex align-items-center px-2 justify-content-between">
+                                <p class=" p-3">Sam Kiefte.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center flex-column ">
+                    <img src="img/variety3.png" alt="..." class="img-fluid">
+                    <div class="variety-text-box d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Dave Mock.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="links-section py-2 text-muted d-flex align-items-center">
+                <a href="#" class="link-light text-muted small px-3">See all artists</a>
+                <img src="img/arrow-grey.png" alt="..." class="img-fluid" width="15px">
+            </div>
+        </div>
+    </section>
+
+    <!--Cuisine section-->
+    <section class="cuisine-section py-5">
+        <div class="container py-5">
+            <h2 class="fw-bold">
+                Get a taste of diversity with the right cuisine.
+            </h2>
+
+            <div class="row py-5">
+                <div class="col-lg-4 d-flex justify-content-center flex-column ">
+                    <img src="img/cuisine1.png" alt="..." class="img-fluid">
+                    <div class="variety-text-box bg-light d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Niagara.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/cuisine2.png" alt="..." class="img-fluid">
+                    <div class="variety-text-box bg-light d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Mama Emma.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/cuisine-3.png" alt="..." class="img-fluid">
+                    <div class="variety-text-box bg-light d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Toa Heftiba.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="links-section py-2 text-muted d-flex align-items-center">
+                <a href="#" class="link-light text-muted small px-3">See all caterers</a>
+                <img src="img/arrow-grey.png" alt="..." class="img-fluid" width="15px">
+            </div>
+        </div>
+    </section>
+
+    <!--Extra section-->
+    <section class="extra-section bg-light py-5">
+        <div class="container py-5">
+            <h2 class="fw-bold">
+                You Might Also Be Interested In...
+            </h2>
+
+            <div class="row py-5">
+                <div class="col-lg-4 d-flex justify-content-center flex-column ">
+                    <img src="img/extra1.png" alt="..." class="img-fluid">
+                    <div class=" d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Cleaning Service</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/extra2.png" alt="..." class="img-fluid">
+                    <div class=" d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">MCs.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/extra3.png" alt="..." class="img-fluid">
+                    <div class=" d-flex align-items-center p-2 justify-content-between">
+                                <p class="mb-0 p-3">Photographers.</p>
+                                <a href="#"><img src="img/arrow.png" alt="..." class="img-fluid "></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="links-section py-2 text-muted d-flex align-items-center">
+                <a href="#" class="link-light text-muted small px-3">Browse all vendors</a>
+                <img src="img/arrow-grey.png" alt="..." class="img-fluid" width="15px">
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonial section-->
+    <section class="testimonial-section bg-light py-5">
+        <div class="container py-5">
+            <div class="d-flex justify-content-between">
+                <h2 class="fw-bold">
+                    What are they saying?
+                </h2>
+                <div class="d-flex px-2">
+                    <img src="img/back.png" alt="..." class="img-fluid px-2">
+                    <img src="img/forward.png" alt="..." class="img-fluid">
+                </div>
+            </div>
+           
+           
+                <div class="py-5 row">
+                     <div class="col-lg-6 p-5">
+                                    <div class="testimony mb-4 p-3 h-100">
+                                        <p class="mb-4 fw-bolder ">“Wow what a great service! I love it! It is probably the best event planing website I have used. I don’t know how I’ve been planning events without this. I will surely recommend to friends.”</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0 pr-5">
+                                                <img src="img/testimony1.png" alt="..." class="rounded-circle" width="60px">
+                                            </div>
+                                            <div class="ms-3 w-100">
+                                                <h5 class="fw-bolder mb-0 mt-3">
+                                                    Princess Akachi
+                                                </h5>
+                                                <div class="d-lg-flex justify-content-between">
+                                                    <p class="text-muted small">Event Planner</p>
+                                                    <div class="d-flex justify-content-end">
+                                                        <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                        <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                        <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                        <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                        <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>
+                                    </div> 
+                    </div>       
+                    <div class="col-lg-6 p-5">
+                                        <div class="testimony mb-4 p-3 h-100">
+                                            <p class="mb-4 fw-bolder ">“Wow what a great service! I loved it! I really enjoyed using this to organize  my party. It made things alot easier.”</p>
+                                            <div class="d-flex align-items-center ">
+                                                <div class="flex-shrink-0 pr-5">
+                                                    <img src="img/testimony2.png" alt="..." class="rounded-circle" width="60px">
+                                                </div>
+                                                <div class="ms-3 w-100 py-4">
+                                                    <h5 class="fw-bolder mb-0 mt-3">
+                                                        Mike Adenuga
+                                                    </h5>
+                                                    <div class="d-lg-flex justify-content-between">
+                                                        <p class="text-muted small">Event Planner</p>
+                                                        <div class="d-flex justify-content-end">
+                                                            <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                            <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                            <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                            <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                            <img src="img/star.png" alt="..." class="img-fluid h-50">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                    </div>
+                </div>
+           
+        </div>
+    </section>
+
+    <!--Auction section-->
+    <section class="auction-section py-5 bg-light">
+        <div class="container bg-light">
+            <h2 class="py-5">Discover. Earn. Bid. Through Auctions.</h2>
+
+            <div class="row">
+                <div class="col-lg-4 art px-3">
+                    <img src="img/art1.png" alt="..." class="img-fluid">
+                    <div class="p-4">
+                        <div class="text">
+                            <p class="mb-0 text">Segun Akinde's seige of the sky fountain.</p>
+                        </div>
+                        <div class="price py-3 d-flex align-items-center">
+                            <div class="text-muted">N5,234,564.00</div>
+                            <img src="img/line.png" alt="..." class="img-fluid px-3">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="img/clock.png" alt="..." class="img-fluid px-2">
+                                14:04:23
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary p-2">BID NOW</button>
+                        <p class="text-muted py-3">324 bids</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 art px-3">
+                    <img src="img/art2.png" alt="..." class="img-fluid">
+                    <div class="p-4">
+                        <div class="text">
+                            <p class="mb-0 text">Bamdus Shola’s state of the false man.</p>
+                        </div>
+                        <div class="price py-3 d-flex align-items-center">
+                            <div class="text-muted">N834,564.00</div>
+                            <img src="img/line.png" alt="..." class="img-fluid px-3">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="img/clock.png" alt="..." class="img-fluid px-2">
+                                4:04:23
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary p-2">BID NOW</button>
+                        <p class="text-muted py-3">224 bids</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 art px-3">
+                    <img src="img/art3.png" alt="..." class="img-fluid">
+                    <div class="p-4">
+                        <div class="text">
+                            <p class="mb-0 text">Adebayo Ogunlesi’s search for the maiden.</p>
+                        </div>
+                        <div class="price py-3 d-flex align-items-center">
+                            <div class="text-muted">N2,834,564.00</div>
+                            <img src="img/line.png" alt="..." class="img-fluid px-3">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="img/clock.png" alt="..." class="img-fluid px-2">
+                                7:04:23
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary p-2">BID NOW</button>
+                        <p class="text-muted py-3">124 bids</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 art px-3">
+                    <img src="img/art4.png" alt="..." class="img-fluid">
+                    <div class="p-4">
+                        <div class="text">
+                            <p class="mb-0 text">Adegoke Saraki’s the upper room.</p>
+                        </div>
+                        <div class="price py-3 d-flex align-items-center">
+                            <div class="text-muted">N2,834,564.00</div>
+                            <img src="img/line.png" alt="..." class="img-fluid px-3">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="img/clock.png" alt="..." class="img-fluid px-2">
+                                17:04:23
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary p-2">BID NOW</button>
+                        <p class="text-muted py-3">104 bids</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 art px-3">
+                    <img src="img/art5.png" alt="..." class="img-fluid">
+                    <div class="p-4">
+                        <div class="text py-2">
+                            <p class="mb-0 text">Gravity defying sculpture</p>
+                        </div>
+                        <div class="price py-3 d-flex align-items-center">
+                            <div class="text-muted">N34,564.00</div>
+                            <img src="img/line.png" alt="..." class="img-fluid px-3">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="img/clock.png" alt="..." class="img-fluid px-2">
+                                5:04:23
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary p-2">BID NOW</button>
+                        <p class="text-muted py-3">9 bids</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 art px-3">
+                    <img src="img/art6.png" alt="..." class="img-fluid">
+                    <div class="p-4">
+                        <div class="text py-3">
+                            <p class="mb-0 text">Broken Girl Art Piece</p>
+                        </div>
+                        <div class="price py-4 my-2 d-flex align-items-center">
+                            <div class="text-muted py-3">N54,564.00</div>
+                            <img src="img/line.png" alt="..." class="img-fluid px-3">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="img/clock.png" alt="..." class="img-fluid px-2">
+                                7:04:23
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary p-2">BID NOW</button>
+                        <p class="text-muted py-3">56 bids</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-primary py-5 text-white">
+        <div class="container px-5">
+            <div class="row  ">
+                <div class="col-lg-3">
+                    <img src="img/foot-logo.png" alt="..." class="img-fluid mb-3">
+                    <div class="d-flex align-items-center">
+                        <img src="img/social1.png" alt="..." class="img-fluid px-2">
+                        <img src="img/social2.png" alt="..." class="img-fluid px-2">
+                        <img src="img/social3.png" alt="..." class="img-fluid px-2">
+                        <img src="img/social4.png" alt="..." class="img-fluid px-2">
+                        <img src="img/social5.png" alt="..." class="img-fluid px-2">
+                    </div>
+                    <p class="my-4">
+                        <img src="img/copy.png" alt="..." class="img-fluid ms-2">
+                        2021 Event360
+                    </p>
+                </div>
     
+                <div class="col-lg-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            <li class="mb-4">
+                                <h4 class="lh-1 fw-bolder text-white">About Us</h4>
+                            </li>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">About Us</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Pricing
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">FAQS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            <li class="mb-4">
+                                <h4 class="lh-1 fw-bolder text-white">Plan Event</h4>
+                            </li>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Wedding</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Birthday
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Funeral</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Sports Event</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Exhibition</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3">
+                    <ul class="list-unstyled">
+                        <li class="my-4">
+                            <h4 class="lh-1 fw-bolder text-white">Contact Support</h4>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Help Center</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Privacy 
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="lh-1 fw-bold text-white text-decoration-none">Terms and Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
