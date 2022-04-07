@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.create-acount {
+    width: 100%;
+}
+
+.sign-section {
+    display: flex;
+}
+
+.form-section {
+    margin-top: 75px;
+    padding: 0px 20px;
+    width: 50%;
+    margin-left: 55px;
+}
+
+h4 {
+    margin-top: 41px;
+    color: #012762;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.lastname {
+    width: 259px;
+    padding: 13px 0px;
+}
+
+.feed-back {
+    padding: 13px 0px;
+    width: 448px;
+}
+
+.button,
+.check {
+    margin-left: 114px;
+}
+
+.image,
+h4 {
+    margin-left: 136px;
+}
+
+.btn {
+    width: 289px;
+    background: #2750A8;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+.sign {
+    margin-left: 136px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #012762;
+    font-weight: bold;
+}
+
+.image-section {
+    width: 50%;
+    background-image: url(./asset/login.png);
+    background-size: cover;
+}
+
+@media screen and (max-width:768px) {
+    .form-section {
+        width: 100%;
+    }
+    .image-section {
+        background: none;
+    }
+    .feed-back {
+        width: 518px;
+    }
+    .image,
+    h4 {
+        margin-left: 189px;
+    }
+    .button {
+        margin-left: 162px;
+    }
+    .sign {
+        margin-left: 187px;
+    }
+    .scling {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .form-section {
+        margin-left: -31px;
+    }
+    .feed-back {
+        width: 356px;
+    }
+    .image,
+    h4 {
+        margin-left: 106px;
+    }
+    .button {
+        margin-left: 81px;
+    }
+    .btn {
+        width: 268px;
+    }
+    .sign {
+        margin-left: 107px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .image,
+    h4 {
+        margin-left: 93px;
+    }
+    .feed-back {
+        width: 304px;
+    }
+    .btn {
+        width: 227px;
+    }
+    .button {
+        margin-left: 85px;
+    }
+    .sign {
+        margin-left: 91px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .feed-back {
+        width: 249px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    .check {
+        margin-left: 80px;
+    }
+    .button {
+        margin-left: 58px;
+    }
+    .sign {
+        margin-left: 61px;
+    }
+}

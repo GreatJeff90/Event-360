@@ -1,0 +1,129 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    .create-acount {
+        width: 100%;
+    }
+    
+    .sign-section {
+        display: flex;
+    }
+    
+    .form-section {
+        width: 46%;
+        margin-left: 55px;
+    }
+    
+    h4 {
+        margin-top: 41px;
+        color: #012762;
+        font-weight: 700;
+        font-size: 34px;
+    }
+    
+    .lastname {
+        width: 259px;
+        padding: 13px 0px;
+    }
+    
+    .feed-back {
+        padding: 13px 0px;
+        width: 543px;
+    }
+    
+    .button {
+        margin-left: 114px;
+    }
+    
+    .btn {
+        width: 289px;
+    }
+    
+    .image-section {
+        width: 50%;
+        background-image: url(./asset/signup-img.png);
+        background-size: cover;
+    }
+    
+    @media screen and (max-width:1024px) {
+        .lastname {
+            width: 415px;
+        }
+        .feed-back {
+            width: 415px;
+        }
+        .button {
+            margin-left: 61px;
+            margin-bottom: 8px;
+        }
+        .vh-100 {
+            height: 185vh!important;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .form-section {
+            width: 100%;
+            margin-left: 104px;
+        }
+        .image-section {
+            background: none;
+        }
+        .lastname {
+            width: 545px;
+        }
+        .feed-back {
+            width: 545px;
+        }
+        .button {
+            margin-left: 109px;
+        }
+    }
+    
+    @media screen and (max-width:425px) {
+        .form-section {
+            width: 100%;
+            margin-left: 31px;
+        }
+        .feed-back {
+            width: 362px;
+        }
+        .image-section {
+            background: none;
+        }
+        .btn {
+            margin-left: -73px;
+            width: 261px;
+        }
+        .lastname {
+            width: 363px;
+        }
+        .button {
+            margin-left: 118px;
+        }
+    }
+    
+    @media screen and (max-width:375px) {
+        .form-section {
+            margin-left: 17px;
+        }
+    }
+    
+    @media screen and (max-width:320px) {
+        h4 {
+            font-size: 29px;
+        }
+        .lastname {
+            width: 304px;
+        }
+        .feed-back {
+            width: 304px;
+        }
+        .btn {
+            margin-left: -71px;
+            width: 197px;
+        }
+    }
